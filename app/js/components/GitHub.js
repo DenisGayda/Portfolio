@@ -29,7 +29,7 @@ export default class extends React.Component {
         this._setFunction()
     }
 	render() {
-        let site = ['magazine', 'Translator', 'site1', 'site2', 'site4' ,'comments', 'site1', 'portfolio'];
+        let site = ['magazine', 'translator', 'site1', 'site2', 'site4' ,'comments', 'site1', 'portfolio'];
 		return (
 			<main className="wrapper">
                 <div id="gallery">

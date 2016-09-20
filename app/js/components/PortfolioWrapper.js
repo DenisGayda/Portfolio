@@ -2,7 +2,7 @@ import React from 'react';
 
 export default class extends React.Component {
 	render() {	
-		let site = ['magazine', 'Translator', 'site1', 'site2', 'site4' ,'comments', 'site1']
+		let site = ['magazine', 'translator', 'site1', 'site2', 'site4' ,'comments', 'site1']
 		return (
 			 <div className="dg-wrapper">
 			 {

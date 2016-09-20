@@ -8,7 +8,7 @@ export default class extends React.Component {
 			<div className="slide">
                 <div className="block">
                     <img src={"image/"+this.props.site+".png"} />
-                    <a className="link_button" href={"https://denisgayda.github.io/"+this.props.site+"/"} data-title="Viev source code on GitHub"></a>
+                    <a className="link_button" href={"https://github.com/DenisGayda/"+this.props.site} data-title="Viev source code on GitHub"></a>
                 </div>
                 <ul> Using technology
                     {
