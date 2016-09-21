@@ -29,19 +29,19 @@ export default class extends React.Component {
         this._setFunction()
     }
 	render() {
-        let site = ['magazine', 'translator', 'site1', 'site2', 'site4' ,'comments', 'site1', 'portfolio'];
+        let site = ['magazine', 'translator', 'lending', 'euro-2016', 'notify' ,'comments', 'plus_zero', 'portfolio'];
 		return (
 			<main className="wrapper">
                 <div id="gallery">
                     <GithubMenu site = {site} />
                     <div id="slides">
-                        <GithubSlide site = {'magazine'} technology = {['Jade', 'CSS3 via Sass', 'Javascript', 'React', 'gulp']}/>
-                        <GithubSlide site = {'Translator'} technology = {['HTML', 'CSS3 via Sass', 'jQuerry', 'AJAX']}/>
-                        <GithubSlide site = {'site1'} technology = {['HTML', 'CSS3 via Sass']}/>
-                        <GithubSlide site = {'site2'} technology = {['HTML', 'CSS3 via Sass', 'Javascript']}/>
-                        <GithubSlide site = {'site4'} technology = {['HTML', 'CSS3 via Sass', 'jQuerry']}/>
+                       <GithubSlide site = {'magazine'} technology = {['Jade', 'CSS3 via Sass', 'Javascript', 'React', 'gulp']}/>
+                        <GithubSlide site = {'translator'} technology = {['HTML', 'CSS3 via Sass', 'jQuerry', 'AJAX']}/>
+                        <GithubSlide site = {'lending'} technology = {['HTML', 'CSS3 via Sass']}/>
+                        <GithubSlide site = {'euro-2016'} technology = {['HTML', 'CSS3 via Sass', 'Javascript']}/>
+                        <GithubSlide site = {'notify'} technology = {['HTML', 'CSS3 via Sass', 'jQuerry']}/>
                         <GithubSlide site = {'comments'} technology = {['HTML', 'CSS3 via Sass', 'React']}/>
-                        <GithubSlide site = {'site1'} technology = {['HTML', 'CSS3 via Sass', 'Javascript', 'jQuerry', 'React']}/>
+                        <GithubSlide site = {'plus_zero'} technology = {['HTML', 'CSS3 via Sass', 'Javascript']}/>
                         <GithubSlide site = {'portfolio'} technology = {['HTML', 'CSS3 via Sass', 'Javascript', 'jQuerry', 'React', 'gulp']}/>
                     </div>
                 </div>
