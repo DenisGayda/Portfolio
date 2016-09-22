@@ -21504,7 +21504,11 @@
 						_react2.default.createElement(
 							'h1',
 							{ className: 'my-name' },
-							'Denis Gayda'
+							_react2.default.createElement(
+								_reactRouter.Link,
+								{ to: '/portfolio' },
+								'Denis Gayda'
+							)
 						),
 						_react2.default.createElement(
 							'ul',
@@ -27422,6 +27426,16 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'section',
+	                        { className: 'technicalSkills' },
+	                        _react2.default.createElement(
+	                            'h2',
+	                            { className: 'section__header' },
+	                            'TECHNICAL SKILLS'
+	                        ),
+	                        _react2.default.createElement(_TechnicalSkills2.default, null)
+	                    ),
+	                    _react2.default.createElement(
+	                        'section',
 	                        { className: 'workExperience' },
 	                        _react2.default.createElement(
 	                            'h2',
@@ -27539,21 +27553,11 @@
 	                    ),
 	                    _react2.default.createElement(
 	                        'section',
-	                        { className: 'technicalSkills' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            { className: 'section__header' },
-	                            'TECHNICAL SKILLS'
-	                        ),
-	                        _react2.default.createElement(_TechnicalSkills2.default, null)
-	                    ),
-	                    _react2.default.createElement(
-	                        'section',
 	                        { className: 'personalSkills' },
 	                        _react2.default.createElement(
 	                            'h2',
 	                            { className: 'section__header' },
-	                            'TRAINING'
+	                            'PERSONAL SKILLS'
 	                        ),
 	                        _react2.default.createElement(
 	                            'div',
@@ -28003,7 +28007,7 @@
 	                    "div",
 	                    { className: "block" },
 	                    _react2.default.createElement("img", { src: "image/" + this.props.site + ".png" }),
-	                    _react2.default.createElement("a", { className: "link_button", href: "https://denisgayda.github.io/" + this.props.site + "/", "data-title": "Viev source code on GitHub" })
+	                    _react2.default.createElement("a", { className: "link_button", href: "https://github.com/DenisGayda/" + this.props.site, "data-title": "Viev source code on GitHub" })
 	                ),
 	                _react2.default.createElement(
 	                    "ul",
