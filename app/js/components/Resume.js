@@ -22,6 +22,10 @@ export default class extends React.Component {
                         <p>I want to be involved in big projects, join an amazing team and advance my front-end developer career</p>
                     </div>
                 </section>
+                 <section className="technicalSkills">
+                    <h2 className="section__header">TECHNICAL SKILLS</h2>
+                    <TechnicalSkills />
+                </section>
                 <section className="workExperience">
                     <h2 className="section__header">WORK EXPERIENCE</h2>
                     <div className="section__block_flex">
@@ -55,12 +59,8 @@ export default class extends React.Component {
                         <span>Jun 2016  - Sept 2016</span>
                     </div>
                 </section>
-                <section className="technicalSkills">
-                    <h2 className="section__header">TECHNICAL SKILLS</h2>
-                    <TechnicalSkills />
-                </section>
                 <section className="personalSkills">
-                    <h2 className="section__header">TRAINING</h2>
+                    <h2 className="section__header">PERSONAL SKILLS</h2>
                      <div className="section__column">
                         <ul className="section__column_item">
                             <li><p>Analyticity</p></li>
